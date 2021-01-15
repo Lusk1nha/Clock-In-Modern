@@ -1,4 +1,4 @@
-## color-changer-previewer
+## Clock-In-Modern
 A modern Clock with HTML/CSS/JavaScript
 
 ## users stories

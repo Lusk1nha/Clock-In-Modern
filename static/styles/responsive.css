@@ -1,0 +1,21 @@
+@media screen and (max-width: 1135px) {
+    h1 {
+        font-size: 115px;
+
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 156px;
+
+    }
+
+    h1#AmPm {
+        margin-left: 80px;
+
+    }
+
+
+}

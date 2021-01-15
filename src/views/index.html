@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <link rel="stylesheet" href="/static/styles/responsive.css">
+
+    <link rel="shortcut icon" href="/static/assets/icons8-clock-128.png">
+
+</head>
+<body>
+    <div id="clock-content" onload="started()">
+        <h1 class="hours" id="time"></h1>
+        <h1 class="hours" id="AmPm" hidden>AM</h1>
+    </div>
+
+    <div id="changeClock">
+        <button class="buttons" type="button" onclick="changeClock()">trocar</button>
+
+    </div>
+
+    <script src="/static/scripts/index.js"></script>
+</body>
+
+</html>

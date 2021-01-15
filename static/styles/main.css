@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
+:root {
+    --main-color: rgb(46, 64, 230);
+    --hover-main-color: rgb(21, 46, 129);
+    --secondary-color: rgb(37, 37, 192);
+
+    --amPm-main-color: rgb(37, 37, 192);
+    --hover-amPm-color: rgb(34, 34, 138);
+
+}
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+
+    cursor: default;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+
+    background-color: #0E0F0F;
+
+    color: white;
+
+    margin: 0;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+
+}
+
+#clock-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 800px;
+    height: 300px;
+    width: 60%;
+
+}
+
+h1 {
+    max-width: 1000px;
+    width: 100%;
+
+    font-size: 10vw;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    color: var(--main-color);
+    letter-spacing: 10px;
+
+    text-shadow: 0 0 4px var(--main-color);
+
+    margin: 0 1px;
+
+    transition: color 400ms, text-shadow 400ms;
+
+}
+
+h1:hover {
+    color: var(--hover-main-color);
+    text-shadow: 0px 0px 5px var(--hover-main-color);
+
+}
+
+h1#AmPm {
+    max-width: 600px;
+    width: 100%;
+
+    color: var(--amPm-main-color);
+    text-shadow: 0px 0px 4px var(--amPm-main-color);
+
+    margin-left: 30px;
+
+}
+
+h1#AmPm:hover {
+    color: var(--hover-amPm-color);
+    text-shadow: 0px 0px 4px var(--hover-amPm-color);
+    
+}
+
+#changeClock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 800px;
+    height: 200px;
+
+}
+
+.buttons {
+    max-width: 300px;
+    min-width: 100px;
+    
+    width: 300px;
+    height: 60px;
+
+    font-size: 20px;
+
+    margin-top: 100px;
+
+    border: none;
+    border-radius: 6px;
+    outline: none;
+
+    background-color: var(--main-color);
+    box-shadow: 0px 0px 5px var(--main-color);
+
+    transition: background 300ms, box-shadow 300ms;
+
+}
+
+.buttons:hover {
+    background-color: var(--hover-main-color);
+    box-shadow: 0px 0px 10px var(--hover-main-color);
+
+}

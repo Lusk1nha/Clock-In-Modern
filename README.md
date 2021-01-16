@@ -8,4 +8,4 @@ A modern Clock with HTML/CSS/JavaScript
 ## Result
 
 > ### See the result live [here](https://codepen.io/Lusk1nha/full/MWjmVPm) 
-[![codepen.io](https://github.com/Lusk1nha/color-changer-previewer/blob/master/static/assets/clock.png)](https://codepen.io/Lusk1nha/full/MWjmVPm)
+[![codepen.io](https://github.com/Lusk1nha/Clock-In-Modern/blob/master/static/assets/clock.png)](https://codepen.io/Lusk1nha/full/MWjmVPm)
